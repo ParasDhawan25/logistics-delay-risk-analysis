@@ -179,9 +179,9 @@ logistics-delay-risk-analysis/
 
 ## 📊 Dashboard Preview
 
-![RiskOverview](images/dashboard-1.png)
-![RootCauseAnalysis](images/dashboard-2.png)
-![StrategicRiskControlCenter](images/dashboard-3.png)
+![RiskOverview](images/dashboard_1.png)
+![RootCauseAnalysis](images/dashboard_2.png)
+![StrategicRiskControlCenter](images/dashboard_3.png)
 
 ---
 
