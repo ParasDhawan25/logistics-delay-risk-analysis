@@ -5,8 +5,14 @@ An end-to-end Machine Learning + Power BI solution to predict shipment delays, i
 > ⚠️ 11.49% shipments delayed | ~90% delay impact driven by a single vendor
 
 ---
+## 🚨 Business Problem
 
-## 📌 Overview
+Logistics delays directly impact cost, customer satisfaction, and operational efficiency.  
+The goal is to **predict high-risk shipments before delays occur** and enable proactive intervention.
+
+---
+
+## 💡 Solution
 
 This project builds an end-to-end data analytics and machine learning pipeline to analyze shipment delays, identify key risk drivers, and predict high-risk deliveries. The final output is an executive Power BI dashboard designed for real-world logistics decision-making.
 
@@ -112,6 +118,24 @@ In logistics operations:
 * Suitable for deployment in real-world systems
 
 ---
+## 🎯 Critical Model Decision
+
+Instead of maximizing accuracy, the model was optimized for **business risk**:
+
+- Missing a delay = HIGH cost
+- False alarm = manageable cost
+
+👉 Therefore:
+- Threshold tuned to **0.69**
+- Focus: **minimize missed delays (high recall)**
+
+⚖️ Trade-off:
+- Slight increase in false positives
+- Significant reduction in missed delays
+
+👉 This aligns with real-world logistics decision-making
+
+---
 
 ## 📊 Key Outputs
 
@@ -190,6 +214,18 @@ logistics-delay-risk-analysis/
 ![StrategicRiskControlCenter](images/dashboard_3.png)
 
 ---
+
+## 📊 What This Dashboard Enables
+
+- Identify high-risk shipments BEFORE delay occurs
+- Detect vendor concentration risk (~90% impact from one vendor)
+- Analyze delay drivers (shipment mode, product, country)
+- Support strategic decisions for logistics optimization
+
+👉 Designed for executive-level decision making
+
+---
+
 ## 🔥 Key Business Insights
 
 - ~90% of delay impact is driven by a single vendor → high concentration risk
