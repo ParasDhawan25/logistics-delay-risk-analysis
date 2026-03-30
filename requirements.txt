@@ -1,0 +1,28 @@
+# This file includes all dependencies used across:
+# - Data preprocessing
+# - Feature engineering
+# - Model experimentation (LR, DT, RF, GB, XGBoost)
+# - Imbalance handling (SMOTE)
+# - Visualization and analysis
+
+# Core data processing
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Machine Learning (ALL MODELS YOU USED)
+scikit-learn>=1.2.0
+
+# Imbalance handling (SMOTE)
+imbalanced-learn>=0.10.0
+
+# Advanced model (experimented)
+xgboost>=1.7.0
+
+# Notebook environment
+jupyter>=1.0.0
+notebook>=6.5.0
+ipykernel>=6.0.0
