@@ -1,4 +1,10 @@
-# 🚚 Logistics Delay Risk Analysis & Prediction
+# 🚚 Logistics Delay Risk Prediction System
+
+An end-to-end Machine Learning + Power BI solution to predict shipment delays, identify root causes, and enable proactive logistics decision-making.
+
+> ⚠️ 11.49% shipments delayed | ~90% delay impact driven by a single vendor
+
+---
 
 ## 📌 Overview
 
@@ -184,6 +190,14 @@ logistics-delay-risk-analysis/
 ![StrategicRiskControlCenter](images/dashboard_3.png)
 
 ---
+## 🔥 Key Business Insights
+
+- ~90% of delay impact is driven by a single vendor → high concentration risk
+- Ocean shipments show highest delay rates → logistics inefficiency
+- ARV product group has highest delay % → process bottleneck
+- Delays peak on Fridays → scheduling inefficiency
+
+---
 
 ## ⚠️ Key Trade-Off
 
@@ -208,6 +222,17 @@ It integrates:
 
 to transform logistics operations from **reactive to proactive**.
 
+---
+## ⚠️ Model Limitation
+
+The predicted probabilities show high concentration near 1.0, indicating potential calibration issues.
+
+Future improvements:
+- Probability calibration (Platt scaling / isotonic)
+- Feature refinement to reduce bias
+- More balanced training strategy
+
+👉 Current model is effective for ranking risk, but probabilities should be interpreted cautiously
 ---
 
 ## 👤 Author
